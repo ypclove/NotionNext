@@ -12,24 +12,24 @@ const CONFIG = {
   // 英雄区左右侧组件颠倒位置
   HEO_HERO_REVERSE: false,
   // 博客主体区左右侧组件颠倒位置
-  HEO_HERO_BODY_REVERSE: true,
+  HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '',
-  HEO_HERO_TITLE_2: '',
-  HEO_HERO_TITLE_3: '',
-  HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: '',
+  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_2: '与思维认知',
+  HEO_HERO_TITLE_3: 'FRANKSTEVEN.ME',
+  HEO_HERO_TITLE_4: '新版上线',
+  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_LINK: 'https://franksteven.me',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '', url: '' },
-  HEO_HERO_CATEGORY_2: { title: '', url: '' },
-  HEO_HERO_CATEGORY_3: { title: '', url: '' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
+  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '',
-  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
+  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
@@ -104,11 +104,11 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_URL: 'https://franksteven.me',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
