@@ -17,10 +17,10 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'FRANKSTEVEN.ME',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: 'https://franksteven.me',
+  HEO_HERO_TITLE_3: 'BLOG.FRANKSTEVEN.ME',
+  HEO_HERO_TITLE_4: '科技改变生活',
+  HEO_HERO_TITLE_5: '代码改变世界',
+  HEO_HERO_TITLE_LINK: 'https://blog.franksteven.me',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
